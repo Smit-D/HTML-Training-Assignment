@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="row">
+        <div class="row">
+          <img src="./images/menu-bar.svg" class="menu-icon" alt="menu" />
+          <div class="row">
+            <img src="./images/logo.svg" class="company-logo" alt="logo" />
+          </div>
+          <div class="row">
+            <img
+              src="./images/search-icon.svg"
+              alt="search-icon"
+              class="search-icon"
+            />
+            <span class="row">Search</span>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            class="col"
+            src="./images/notification-icon.svg"
+            alt="notification-icon"
+          />
+          <div class="col">
+            <img src="./images/profile.png" alt="profile" class="profile-icon" />
+            <h4 class="col">
+              <span class="col"> John Doe</span>
+              <span class="col"
+                ><img src="./images/select-downward.svg" alt="profile-dropdown"
+              /></span>
+            </h4>
+          </div>
+        </div>
+      </nav>
+      <main class="main-container">
+        <div class="sidebar">
+          <ul class="list">
+            <li class="li-items dashboard">
+              <img
+                class="li-icons"
+                src="./images/dashboard-active.svg"
+                alt="dashboard-active"
+              />
+              <h4 class="sidebar-heading">Dashboard</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/graph-default.svg"
+                alt="graph-default"
+              />
+              <h4 class="sidebar-heading">Analysis</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/inbox-default.svg"
+                alt="inbox-default"
+              />
+              <h4 class="sidebar-heading">Inbox</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/clock-default.svg"
+                alt="clock-default"
+              />
+              <h4 class="sidebar-heading">History</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/user-default.svg"
+                alt="user-default"
+              />
+              <h4 class="sidebar-heading">Users</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/maintenance-default.svg"
+                alt="maintenance-default"
+              />
+              <h4 class="sidebar-heading">Maintenance</h4>
+            </li>
+            <li class="li-items">
+              <img
+                class="li-icons"
+                src="./images/setting-default.svg"
+                alt="setting-default"
+              />
+              <h4 class="sidebar-heading">Setting</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="m-container">
+          <h3 class="dashboard-title">Dashboard</h3>
+          <ul class="top-cards">
+            <li class="top-card-items-first">
+              <img src="./images/star.svg" alt="star" class="top-card-icon" />
+              <div class="top-card">
+                <p class="product-number">23,456</p>
+                <p class="product-text">New Products</p>
+              </div>
+            </li>
+            <li class="top-card-items">
+              <img
+                src="./images/new-product.svg"
+                alt="star"
+                class="top-card-icon"
+              />
+              <div class="top-card">
+                <p class="product-number">2345</p>
+                <p class="product-text">Added Products</p>
+              </div>
+            </li>
+            <li class="top-card-items">
+              <img
+                src="./images/total-product.svg"
+                alt="star"
+                class="top-card-icon"
+              />
+              <div class="top-card">
+                <p class="product-number">5678</p>
+                <p class="product-text">Today's Sale</p>
+              </div>
+            </li>
+            <li class="top-card-items">
+              <img
+                src="./images/dollar-filled.svg"
+                alt="star"
+                class="top-card-icon"
+              />
+              <div class="top-card">
+                <p class="product-number">33,5432</p>
+                <p class="product-text">total Sale</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="charts">
+            <li class="chart-item-1">
+              <div class="chart-item-nav">
+                <h3 class="chart-item-1-title">Sale</h3>
+                <div class="wmy">
+                  <span class="w">Weekly</span><span class="m">Monthly</span>
+                  <span class="y">Yearly</span>
+                </div>
+              </div>
+              <div class="chart-graph">
+                <img src="./images/data-graph.png" alt="graph" class="graph" />
+              </div>
+            </li>
+            <li class="chart-item-2">
+              <h3 class="chart-item-2-title">Sales by Country</h3>
+              <div class="pie-chart">
+                <img src="./images/pie-chart.svg" alt="pie-img" class="pie-img" />
+                <div class="pie-des">
+                  <ul class="pie-des-1">
+                    <li class="pie-des-1-inner">
+                      <img src="./images/red-circle.png" alt="" class="circle" />
+                      <h4 class="pie-des-name-usa">United States of America</h4>
+                    </li>
+                    <li class="pie-des-1-inner-russia">
+                      <img
+                        src="./images/orange-circle.png"
+                        alt=""
+                        class="circle"
+                      />
+                      <h4 class="pie-des-name-russia">Russia</h4>
+                    </li>
+                  </ul>
+                  <ul class="pie-des-2">
+                    <li class="pie-des-1-inner">
+                      <img src="./images/red-circle.png" alt="" class="circle" />
+                      <h4 class="pie-des-name">Canada</h4>
+                    </li>
+                    <li class="pie-des-1-inner">
+                      <img
+                        src="./images/orange-circle.png"
+                        alt=""
+                        class="circle"
+                      />
+                      <h4 class="pie-des-name">India</h4>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="table-container">
+            <div class="chart-item-nav">
+              <h3 class="table-title">Invoices</h3>
+              <!-- <div class="wmy"> -->
+              <span class="va">View All</span>
+              <!-- </div> -->
+            </div>
+            <table class="invoice">
+              <tr class="invoice-nav">
+                <th class="invoice-nav-items">INVOICE</th>
+                <th class="invoice-nav-items">COMPANY NAME</th>
+                <th class="invoice-nav-items">EMAIL</th>
+                <th class="invoice-nav-items">DUE DATE</th>
+                <th class="invoice-nav-items">STATUS</th>
+                <th class="invoice-nav-items">Amount</th>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">651535</td>
+                <td class="invoice-company-name">Public Adjusting Firm</td>
+                <td class="invoice-email">georgia.young@example.com</td>
+                <td class="invoice-due-date">24 May, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$47,800</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">558612</td>
+                <td class="invoice-company-name">Other</td>
+                <td class="invoice-email">jessica.hanson@emaple.com</td>
+                <td class="invoice-due-date">24 May, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$98,000</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">558612</td>
+                <td class="invoice-company-name">Vendor</td>
+                <td class="invoice-email">alma.lawson@example.com</td>
+                <td class="invoice-due-date">8 Sep, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$20,900</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">558612</td>
+                <td class="invoice-company-name-pmc">Property Management Company</td>
+                <td class="invoice-email">kenzi.lawson@example.com</td>
+                <td class="invoice-due-date">22 oct, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$10,570</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">651535</td>
+                <td class="invoice-company-name">Subcontractor Company</td>
+                <td class="invoice-email">jackson.graham@example.com</td>
+                <td class="invoice-due-date">1 Feb, 2020</td>
+                <td class="invoice-status"><button class="failed">Failed</button></td>
+                <td class="invoice-status-amount">$1,200</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">653518</td>
+                <td class="invoice-company-name">Mortgage Company</td>
+                <td class="invoice-email">felicia.reid@example.com</td>
+                <td class="invoice-due-date">22 Oct, 2020</td>
+                <td class="invoice-status"><button class="pending">Pending</button></td>
+                <td class="invoice-status-amount">$12,600</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">487441</td>
+                <td class="invoice-company-name">TPA</td>
+                <td class="invoice-email">dolores.chambers@example.com</td>
+                <td class="invoice-due-date">21 Sep, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$11,170</td>
+              </tr>
+              <tr class="row-data">
+                <td class="invoice-number">267400</td>
+                <td class="invoice-company-name">Fire Department</td>
+                <td class="invoice-email">nevaeh.simmons@example.com</td>
+                <td class="invoice-due-date">17 Oct, 2020</td>
+                <td class="invoice-status"><button class="failed">Failed</button></td>
+                <td class="invoice-status-amount">$28,000</td>
+              </tr>
+              <tr class="row-data last-row">
+                <td class="invoice-number">449003</td>
+                <td class="invoice-company-name">Insurance Carrier</td>
+                <td class="invoice-email">curtis.weaver@example.com</td>
+                <td class="invoice-due-date">21 Sep, 2020</td>
+                <td class="invoice-status"><button class="paid">Paid</button></td>
+                <td class="invoice-status-amount">$10,000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+    
+</body>
+</html>

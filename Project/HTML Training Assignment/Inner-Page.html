@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner-Page</title>
+    <link rel="stylesheet" href="./css/inner-style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left-navbar">
+        <img src="./images/menu-bar.svg" class="menu-icon" alt="menu" />
+        <div>
+          <img src="./images/logo.svg" class="company-logo" alt="logo" />
+        </div>
+        <div class="search">
+          <img
+            src="./images/search-icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+          <span class="search-text">Search</span>
+        </div>
+      </div>
+      <div class="right-navbar">
+        <img
+          class="notification"
+          src="./images/notification-icon.svg"
+          alt="notification-icon"
+        />
+        <div class="profile">
+          <img src="./images/profile.png" alt="profile" class="profile-icon" />
+          <h4 class="profile-name">
+            <span class="prn"> John Doe</span>
+            <span class="profile-dropdown"
+              ><img src="./images/select-downward.svg" alt="profile-dropdown"
+            /></span>
+          </h4>
+        </div>
+      </div>
+    </nav>
+    <main class="main-container">
+      <div class="sidebar">
+        <ul class="list">
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-default-1"
+              src="./images/dashboard-default.svg"
+              alt="dashboard-active"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-1"
+              src="./images/dashboard-active.svg"
+              alt="dashboard-default"
+            />
+            <h4 class="sidebar-heading">
+              <a href="./dashboard.html">Dashboard</a>
+            </h4>
+          </li>
+          <li class="li-items active-tab">
+            <img
+              class="li-icons-active"
+              id="li-icons-active-2"
+              src="./images/graph-active.svg"
+              alt="graph-default"
+            />
+            <img
+              class="li-icons-default"
+              id="li-icons-default-2"
+              src="./images/graph-active.svg"
+              alt="graph-default"
+            />
+
+            <h4 class="sidebar-heading">
+              <a href="./Inner-Page.html">Analysis</a>
+            </h4>
+          </li>
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-defaul-3t"
+              src="./images/inbox-default.svg"
+              alt="inbox-default"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-3"
+              src="./images/inbox-active.svg"
+              alt="inbox-default"
+            />
+            <h4 class="sidebar-heading">Inbox</h4>
+          </li>
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-default-4"
+              src="./images/clock-default.svg"
+              alt="clock-default"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-4"
+              src="./images/clock-active.svg"
+              alt="clcck-active"
+            />
+            <h4 class="sidebar-heading">History</h4>
+          </li>
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-default-5"
+              src="./images/user-default.svg"
+              alt="user-default"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-5"
+              src="./images/user-active.svg"
+              alt="user-active"
+            />
+            <h4 class="sidebar-heading">Users</h4>
+          </li>
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-default-6"
+              src="./images/maintenance-default.svg"
+              alt="maintenance-default"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-6"
+              src="./images/maintenance-active.svg"
+              alt="setting-default"
+            />
+            <h4 class="sidebar-heading">Maintenance</h4>
+          </li>
+          <li class="li-items">
+            <img
+              class="li-icons-default"
+              id="li-icons-default-7"
+              src="./images/setting-default.svg"
+              alt="setting-default"
+            />
+            <img
+              class="li-icons-active"
+              id="li-icons-active-7"
+              src="./images/setting-active.svg"
+              alt="setting-default"
+            />
+            <h4 class="sidebar-heading">Setting</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="m-container">
+        <h3 class="container-title">Analysis</h3>
+        <form class="form-main-container">
+          <h3 class="container-title">One Column</h3>
+          <div class="input-container">
+            <input id="firstname" class="input" type="text" placeholder=" " />
+
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">First name</label>
+          </div>
+          <div class="input-container">
+            <select name="dropDown" class="input" id="dropDown">
+              <option value=" ">Dropdown</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="input-container ml">
+            <textarea id="ml" class="input" type="" placeholder="Multiple Line"></textarea>
+
+            <!-- <div class="cut"></div>f -->
+            <!-- <label for="ml" class="placeholder ml">Multiple Line</label> -->
+          </div>
+          <h3 class="container-title col-2">Two Column</h3>
+          <div class="col-2-container">
+            <ul class="row-2">
+              <li class="input-container iw">
+                <input
+                  id="firstname"
+                  class="input"
+                  type="text"
+                  placeholder=" "
+                />
+
+                <div class="cut"></div>
+                <label for="firstname" class="placeholder">Name</label>
+              </li>
+              <li class="input-container ip">
+                <input
+                  id="firstname"
+                  class="input"
+                  type="text"
+                  placeholder=" "
+                />
+
+                <div class="cut"></div>
+                <label for="firstname" class="placeholder">User name</label>
+              </li>
+            </ul>
+            <ul class="row-2">
+              <li class="input-container iw">
+                <input
+                  id="firstname"
+                  class="input"
+                  type="password"
+                  placeholder=" "
+                  minlength="6"
+                  maxlength="12"
+                />
+                <div class="cut"></div>
+                <label for="firstname" class="placeholder">Password</label>
+              </li>
+              <li class="input-container ip">
+                <select name="dropDown" class="input" id="dropDown">
+                  <option value=" "></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <div class="cut"></div>
+                <label for="dropDown" class="placeholder">Dropdown</label>
+              </li>
+            </ul>
+          </div>
+          <h3 class="container-title col-2">Three Column</h3>
+          <ul class="row-col-3">
+            <li class="input-container i3">
+              <input id="firstname" class="input" type="text" placeholder=" " />
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder">Focus</label>
+            </li>
+            <li class="input-container i3">
+              <input
+                id="firstname"
+                class="input"
+                type="password"
+                placeholder=" "
+                minlength="6"
+                maxlength="12"
+              />
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder">Password</label>
+            </li>
+            <li class="input-container i3" style="border: 1px dashed #adadad">
+              <input id="disabled" class="input" type="text" placeholder=" " disabled/>
+              <div class="cut"></div>
+              <label for="disabled" class="placeholder">Disabled</label>
+            </li>
+          </ul>
+          <h3 class="container-title col-2">Four Column</h3>
+          <ul class="row-col-4">
+            <li class="input-container i4">
+              <input id="designation" class="input" type="text"  placeholder=" " />
+              <div class="cut"></div>
+              <label for="Designation" class="placeholder">Designation</label>
+              <span class="feedback-msg">Enter Valid data</span>
+            </li>
+            <li class="input-container i4">
+              <input id="name" class="input" type="text" aria-errormessage="Enter valid message" placeholder=" " !invalid/>
+              <div class="cut"></div>
+              <label for="name" class="placeholder">Name</label>
+              <span class="feedback-msg">Enter your full Name as per ID</span>
+
+            </li>
+            <li class="input-container i4">
+              <input id="username" class="input" type="text" placeholder=" " />
+              <div class="cut"></div>
+              <label for="username" class="placeholder">Username</label>
+              <span class="feedback-msg">Enter valid username</span>
+
+            </li>
+            <li class="input-container i4">
+              <select
+                name="dropDown"
+                class="input"
+                id="dropDown"
+                placeholder=" "
+              >
+                <option value="" disabled selected hidden>Select</option>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </li>
+          </ul>
+          <h3 class="other">Other Design Elements</h3>
+          <h3 class="other">File Upload</h3>
+          <div class="btn-upload-container">
+
+            <button class="btn-upload">
+              <img src="./images/cloud-upload-icon.svg" alt="Upload" />
+              <span class="upload-text">Upload</span>
+            </button>
+            <span class="no-item">No item selected</span>
+          </div>
+          <h3 class="other">Radio Button</h3>
+          <div class="rb">
+            <div class="opt">
+              <input type="radio" name="radioOption" id="option1" /><span
+                class="opt-name"
+                >Option 1</span
+              >
+            </div>
+            <div class="opt">
+              <input type="radio" name="radioOption" id="option2" /><span
+                class="opt-name"
+                >Option 1</span
+              >
+            </div>
+          </div>
+          <h3 class="cb-title">Checkbox</h3>
+          <div class="rb">
+            <div class="opt">
+              <input type="checkbox" name="checkOption" id="option3" /><span
+                class="opt-name"
+                >Option 1</span
+              >
+            </div>
+            <div class="opt">
+              <input type="checkbox" name="checkOption" id="option4" /><span
+                class="opt-name"
+                >Option 2</span
+              >
+            </div>
+          </div>
+          <h3 class="cb-title">Snackbar</h3>
+          <div class="row-sb">
+            <div class="col-5 e">
+              <img src="./images/error-icon.svg" alt="err" class="err" />
+              <span class="msg">This is an error Message</span>
+            </div>
+            <div class="col-5 i">
+              <img src="./images/info-icon.svg" alt="err" class="err" />
+              <span class="msg">This is an error Message</span>
+            </div>
+          </div>
+          <div class="row-sb">
+            <div class="col-5 w">
+              <img src="./images/warning-icon.svg" alt="err" class="err" />
+              <span class="msg"> This is an error Message</span>
+            </div>
+            <div class="col-5 s">
+              <img src="./images/success-icon.svg" alt="err" class="err" />
+              <span class="msg">This is an error Message</span>
+            </div>
+          </div>
+          <h3 class="cta-title">Call to action</h3>
+          <div class="col-6">
+            <button class="btn-primary">Primary</button>
+            <button class="btn-secondary">Secondary</button>
+          </div>
+          <h3 class="tabs-title">Tabs</h3>
+          <div class="tabs-container">
+            <div class="tabs-items">Tab 1</div>
+            <div class="tabs-items">Tab 2</div>
+            <div class="tabs-items">Tab 3</div>
+          </div>
+          <p class="tabs-des">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
