@@ -9,6 +9,7 @@ a{
   text-decoration: none;
   color: inherit;
 }
+/* header style */
 .company-logo {
   width: 142px;
   height: 30px;
@@ -30,7 +31,6 @@ a{
 .left-navbar {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .right-navbar {
   display: flex;
@@ -84,6 +84,7 @@ a{
   width: 25px;
   margin: 0px 43.53px 0 -20px;
 }
+/* sidebar style */
 .list {
   position: absolute;
   top: 80px;
@@ -151,6 +152,7 @@ margin-right: 15px;
   margin-right: 15px;
   display: flex;
 }
+/* main-content style */
 .m-container {
   background-color: #fafafa;
   position: absolute;
@@ -180,16 +182,12 @@ border-radius: 5px;
   font-size: 18px;
   width: 50%;
 }
-/* .col-2-container{
-    margin-right: 200px;
-} */
 .iw{
     width: 563px;
     height: 49px;
 }
 .ip{
     margin-left: 30px;
-    /* margin-right: 20px; */
     width: 564px;
     height: 49px;
 }
@@ -203,17 +201,14 @@ border-radius: 5px;
   transition: transform 200ms;
   width: 76px;
 }
-
 .cut-short {
   width: 50px;
 }
-
 .input:focus ~ .cut,
 .input:not(:placeholder-shown) ~ .cut {
   transform: translateY(8px);
   background-color: #fafafa;
 }
-
 .placeholder {
   font-family: sans-serif;
   color: #adadad;
@@ -229,14 +224,11 @@ border-radius: 5px;
   margin-top: 10px;
     height: 130px;
     font-size: 18px;
-    /* width: 1157px; */
 }
-
 .input:focus ~ .placeholder,
 .input:not(:placeholder-shown) ~ .placeholder {
   transform: translateY(-30px) translateX(10px) scale(0.75);
 }
-
 .input:focus ~ .placeholder {
   color: #adadad;
 }
@@ -330,7 +322,7 @@ input:invalid {
 .no-item{
   color: #adadad;
 }
-
+/* radio button */
 .rb{
     margin-left: 45px;
     display: flex;
@@ -345,18 +337,6 @@ input:invalid {
     width: 15px;
     height: 15px;
 }
-/* input[type='radio']:checked:after{    
-    background-color: #c8242f;
-    border-color: #c8242f;
-} */
-/* #option1:checked:after{    
-  background-color: #c8242f;
-
-}
-#option2:checked:after{    
-  background-color: #c8242f;
-
-} */
 .opt-name{
     display:inline-flex;
     width: 61px;
@@ -405,25 +385,26 @@ input:invalid {
     width: 20px;
     margin: 0 10px ;
 }
+/* error block */
 .e{
     color: #FF3535;
     border: 1px solid #ff3535;
-
 }
+/* info block */
 .i{
     color: #00B9E1;
     border: 1px solid #00B9E1;
 
 }
+/* warning block */
 .w{
     color: #FFA800;
     border: 1px solid #FFA800;
-
 }
+/* success block */
 .s{
     color:#00AF27;
     border: 1px solid #00AF27;
-
 }
 .col-6{
   display: flex;
