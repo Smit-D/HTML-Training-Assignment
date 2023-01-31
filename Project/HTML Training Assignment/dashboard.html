@@ -6,29 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./css/dashboard-style.css" />
-    <script src="./js/custom.js"></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="left-navbar">
-        <img src="./images/menu-bar.svg" onclick="openNav()" class="menu-icon" alt="menu" />
-        <div >
-          <img src="./images/logo.svg" class="company-logo" alt="logo" />
-        </div>
-        <div class="search">
+    <header>
+
+      <nav class="navbar">
+        <div class="left-navbar">
           <img
+          src="./images/menu-bar.svg"
+          onclick="openNav()"
+          class="menu-icon"
+          alt="menu"
+          />
+          <div>
+            <picture>
+              <source
+              media="(max-width:546px)"
+              srcset="/images/mobile-header-logo.svg"
+              />
+              <img src="/images/logo.svg" alt="Logo" class="company-logo" />
+            </picture>
+          </div>
+          <div class="search">
+            <img
             src="./images/search-icon.svg"
             alt="search-icon"
             class="search-icon"
-          />
-          <span class="search-text">Search</span>
+            />
+            <span class="search-text">Search</span>
+          </div>
         </div>
-      </div>
-      <div class="right-navbar">
+        <div class="right-navbar">
         <img
-          class="notification"
-          src="./images/notification-icon.svg"
-          alt="notification-icon"
+        class="notification"
+        src="./images/notification-icon.svg"
+        alt="notification-icon"
         />
         <div class="profile">
           <img src="./images/profile.png" alt="profile" class="profile-icon" />
@@ -41,45 +53,58 @@
         </div>
       </div>
     </nav>
+  </header>
     <main class="main-container">
       <div class="sidebar" id="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
         <ul class="list">
           <li class="li-items active-tab">
             <img
-              class="li-icons-default" id="li-icons-default-1"
+              class="li-icons-default"
+              id="li-icons-default-1"
               src="./images/dashboard-active.svg"
               alt="dashboard-active"
             />
             <img
-              class="li-icons-active" id="li-icons-active-1"
+              class="li-icons-active"
+              id="li-icons-active-1"
               src="./images/dashboard-active.svg"
               alt="dashboard-default"
             />
-            <h4 class="sidebar-heading"><a href="./dashboard.html">Dashboard</a></h4>
+            <h4 class="sidebar-heading">
+              <a href="./dashboard.html">Dashboard</a>
+            </h4>
           </li>
           <li class="li-items">
-              <img
-              class="li-icons-default" id="li-icons-default-2"
+            <img
+              class="li-icons-default"
+              id="li-icons-default-2"
               src="./images/graph-default.svg"
               alt="graph-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-2"
+              class="li-icons-active"
+              id="li-icons-active-2"
               src="./images/graph-active.svg"
               alt="graph-default"
             />
-            
-            <h4 class="sidebar-heading"><a href="./Inner-Page.html">Analysis</a></h4>
+
+            <h4 class="sidebar-heading">
+              <a href="./Inner-Page.html">Analysis</a>
+            </h4>
           </li>
           <li class="li-items">
             <img
-              class="li-icons-default" id="li-icons-defaul-3t"
+              class="li-icons-default"
+              id="li-icons-defaul-3t"
               src="./images/inbox-default.svg"
               alt="inbox-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-3"
+              class="li-icons-active"
+              id="li-icons-active-3"
               src="./images/inbox-active.svg"
               alt="inbox-default"
             />
@@ -87,12 +112,14 @@
           </li>
           <li class="li-items">
             <img
-              class="li-icons-default" id="li-icons-default-4"
+              class="li-icons-default"
+              id="li-icons-default-4"
               src="./images/clock-default.svg"
               alt="clock-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-4"
+              class="li-icons-active"
+              id="li-icons-active-4"
               src="./images/clock-active.svg"
               alt="clcck-active"
             />
@@ -100,12 +127,14 @@
           </li>
           <li class="li-items">
             <img
-              class="li-icons-default" id="li-icons-default-5"
+              class="li-icons-default"
+              id="li-icons-default-5"
               src="./images/user-default.svg"
               alt="user-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-5"
+              class="li-icons-active"
+              id="li-icons-active-5"
               src="./images/user-active.svg"
               alt="user-active"
             />
@@ -113,12 +142,14 @@
           </li>
           <li class="li-items">
             <img
-              class="li-icons-default" id="li-icons-default-6"
+              class="li-icons-default"
+              id="li-icons-default-6"
               src="./images/maintenance-default.svg"
               alt="maintenance-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-6"
+              class="li-icons-active"
+              id="li-icons-active-6"
               src="./images/maintenance-active.svg"
               alt="setting-default"
             />
@@ -126,12 +157,14 @@
           </li>
           <li class="li-items">
             <img
-              class="li-icons-default" id="li-icons-default-7"
+              class="li-icons-default"
+              id="li-icons-default-7"
               src="./images/setting-default.svg"
               alt="setting-default"
             />
             <img
-              class="li-icons-active" id="li-icons-active-7"
+              class="li-icons-active"
+              id="li-icons-active-7"
               src="./images/setting-active.svg"
               alt="setting-default"
             />
@@ -167,8 +200,8 @@
               class="top-card-icon"
             />
             <div class="top-card">
-              <p class="product-number">5678</p>
-              <p class="product-text">Today's Sale</p>
+              <p class="product-number">32,456</p>
+              <p class="product-text">Total Products</p>
             </div>
           </li>
           <li class="top-card-items">
@@ -178,8 +211,19 @@
               class="top-card-icon"
             />
             <div class="top-card">
-              <p class="product-number">33,5432</p>
-              <p class="product-text">total Sale</p>
+              <p class="product-number">5678</p>
+              <p class="product-text">Today's Sale</p>
+            </div>
+          </li>
+          <li class="top-card-items">
+            <img
+              src="./images/money-bag.svg"
+              alt="star"
+              class="top-card-icon"
+            />
+            <div class="top-card">
+              <p class="product-number">33,5342</p>
+              <p class="product-text">Total Sale</p>
             </div>
           </li>
         </ul>
@@ -217,7 +261,11 @@
                 </ul>
                 <ul class="pie-des-2">
                   <li class="pie-des-1-inner">
-                    <img src="./images/green-circle.png" alt="" class="circle" />
+                    <img
+                      src="./images/green-circle.png"
+                      alt=""
+                      class="circle"
+                    />
                     <h4 class="pie-des-name">Canada</h4>
                   </li>
                   <li class="pie-des-1-inner">
@@ -275,7 +323,9 @@
             </tr>
             <tr class="row-data">
               <td class="invoice-number">558612</td>
-              <td class="invoice-company-name-pmc">Property Management Company</td>
+              <td class="invoice-company-name-pmc">
+                Property Management Company
+              </td>
               <td class="invoice-email">kenzi.lawson@example.com</td>
               <td class="invoice-due-date">22 oct, 2020</td>
               <td class="invoice-status"><button class="paid">Paid</button></td>
@@ -286,7 +336,9 @@
               <td class="invoice-company-name">Subcontractor Company</td>
               <td class="invoice-email">jackson.graham@example.com</td>
               <td class="invoice-due-date">1 Feb, 2020</td>
-              <td class="invoice-status"><button class="failed">Failed</button></td>
+              <td class="invoice-status">
+                <button class="failed">Failed</button>
+              </td>
               <td class="invoice-status-amount">$1,200</td>
             </tr>
             <tr class="row-data">
@@ -294,7 +346,9 @@
               <td class="invoice-company-name">Mortgage Company</td>
               <td class="invoice-email">felicia.reid@example.com</td>
               <td class="invoice-due-date">22 Oct, 2020</td>
-              <td class="invoice-status"><button class="pending">Pending</button></td>
+              <td class="invoice-status">
+                <button class="pending">Pending</button>
+              </td>
               <td class="invoice-status-amount">$12,600</td>
             </tr>
             <tr class="row-data">
@@ -310,7 +364,9 @@
               <td class="invoice-company-name">Fire Department</td>
               <td class="invoice-email">nevaeh.simmons@example.com</td>
               <td class="invoice-due-date">17 Oct, 2020</td>
-              <td class="invoice-status"><button class="failed">Failed</button></td>
+              <td class="invoice-status">
+                <button class="failed">Failed</button>
+              </td>
               <td class="invoice-status-amount">$28,000</td>
             </tr>
             <tr class="row-data last-row">
@@ -326,15 +382,12 @@
       </div>
     </main>
     <script>
-      // let imgsrc=./images/
-  function openNav() {
-  document.getElementById("sidebar").style.width = "250px";
-}
-
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-function closeNav() {
-  document.getElementById("sidebar").style.width = "0";
-}
+      function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+      }
     </script>
   </body>
 </html>

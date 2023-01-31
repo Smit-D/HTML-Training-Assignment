@@ -10,9 +10,12 @@
   <body>
     <nav class="navbar">
       <div class="left-navbar">
-        <img src="./images/menu-bar.svg" class="menu-icon" alt="menu" />
-        <div>
-          <img src="./images/logo.svg" class="company-logo" alt="logo" />
+        <img src="./images/menu-bar.svg" onclick="openNav()" class="menu-icon" alt="menu" />
+        <div >
+          <picture>
+            <source media="(max-width:750px)" srcset="/images/mobile-header-logo.svg" />
+            <img src="/images/logo.svg" alt="Logo" class="company-logo" />
+          </picture>
         </div>
         <div class="search">
           <img
@@ -41,7 +44,8 @@
       </div>
     </nav>
     <main class="main-container">
-      <div class="sidebar">
+        <div class="sidebar" id="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="list">
           <li class="li-items">
             <img
@@ -175,7 +179,8 @@
             </select>
           </div>
           <div class="input-container ml">
-            <textarea id="ml" class="input" type="" placeholder="Multiple Line"></textarea>
+            <textarea id="ml" class="input" type="" placeholder="Multiple Line" style="    font-size: 16px;
+            "></textarea>
           </div>
           <h3 class="container-title col-2">Two Column</h3>
           <div class="col-2-container">
@@ -375,5 +380,13 @@
         </form>
       </div>
     </main>
+      <script>
+  function openNav() {
+  document.getElementById("sidebar").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("sidebar").style.width = "0";
+}
+    </script>
   </body>
 </html>
