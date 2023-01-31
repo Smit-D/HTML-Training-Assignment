@@ -1,14 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
-
-html,
-body,
-html * {
-  font-family: 'Roboto', sans-serif;
-}
-
 * {
-  /* margin: 0px;
-  padding: 0px; */
+  font-family: 'Roboto', sans-serif;
   outline: none;
 }
 
@@ -61,7 +52,6 @@ html * {
   width: 500px;
   height: 100%;
   flex-direction: column;
-  /* UI Properties */
   text-align: left;
   font: normal normal;
   font-weight: 300;
@@ -71,11 +61,9 @@ html * {
   color: #3E3E3E;
   opacity: 1;
   margin-bottom: 25px;
-  /* margin-bottom: 135px; */
 }
 
 #expert {
-  /* display: flex ; */
   color: #C8242F;
   font: normal normal;
   font-weight: 900;
@@ -86,7 +74,6 @@ html * {
 }
 
 #des {
-
   width: 290px;
   height: 33px;
   margin: 0px;
@@ -101,10 +88,8 @@ html * {
 }
 
 #username {
-
   width: 429px;
   height: 49px;
-  /* margin-top: 135px; */
   text-align: left;
   font-weight: normal;
   font-size: 15px;
@@ -118,8 +103,6 @@ html * {
 }
 
 #password {
-
-
   width: 429px;
   height: 49px;
   text-align: left;
@@ -141,7 +124,6 @@ html * {
 }
 
 #login {
-
   display: flex;
   width: 138px;
   height: 45px;
@@ -161,7 +143,6 @@ html * {
 }
 
 #forgot {
-
   display: flex;
   width: 121px;
   height: 20px;
@@ -182,7 +163,6 @@ html * {
 }
 
 #new {
-
   width: 260px;
   height: 20px;
   display: flex;
@@ -196,89 +176,14 @@ html * {
   opacity: 1;
 }
 
-/* @media only screen and (max-width: 1350px) {
-
-  .background-box {
-    
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    
-  }
-
-  .left-box {
-    width: 90%;
-    justify-content: center;
- 
-    align-self: center;
-  }
-  
-  
-  .description{
-    text-align: center;
-    width: 90%;
-    font-size: 35px;
-    line-height: 42px;
-  }
-  #expert{
-    font-size: 35px;
-    line-height: 50px;
-  }
-
-  .hero {
-    max-width: 90%;
-    height: 50%;
-    margin: 0px;
-    align-self: center;
-    border: 20px solid #FFFFFF;
-  }
-
-  .right-box {
-    margin-top: 35px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  #username{
-    width: 60%;
-    margin-top: 50px;
-  }
-  
-  #password {
-    width: 60%;
-  }
-
-  #des {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-  }
-  
-  .log{
-    width: 85%;
-    justify-content: space-around;
-    margin: 0px 15px;
-  }
-  #new{
-    width: 60%;
-    text-align: center;
-    /* margin-left: 10px; */
- 
-
-
-
 @media only screen and (max-width: 776px) {
-
     .background-box {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       width: 100%;
       height: max-content;
-      
     }
-  
     .left-box {
       width: 80%;
       margin-left: auto;
@@ -286,7 +191,6 @@ html * {
       margin-top: 15px;
       align-self: center;
     }
-    
     .logo{
       width: 40%;
       height: 40%;
@@ -302,7 +206,6 @@ html * {
       font-size: 35px;
       line-height: 50px;
     }
-  
     .hero {
       max-width: 66%;
       height: 50%;
@@ -310,7 +213,6 @@ html * {
       align-self: center;
       border: 10px solid #FFFFFF;
     }
-  
     .right-box {
       margin-top: 35px;
       width: 100%;
@@ -321,17 +223,14 @@ html * {
       width: 60%;
       margin-top: 50px;
     }
-    
     #password {
       width: 60%;
     }
-  
     #des {
       width: 100%;
       text-align: center;
       align-self: center;
     }
-    
     .log{
       width: 85%;
       justify-content: space-around;
@@ -340,24 +239,8 @@ html * {
     #new{
       width: 60%;
       text-align: center;
-      /* margin-left: 10px; */
     }
   }
-
-
-
-/* @media only screen  and (max-width: 1480px) {
-  .background-box{
-    width: 100%;
-
-  }
-} */
-/* @media only screen  and (max-width: 1560px) {
-  .background-box{
-    width: 100%;
-
-  }
- /* }  */
 
 @media only screen  and (max-width: 1248px) {
   .left-box{
@@ -369,31 +252,16 @@ html * {
   }
   .right-box{
     padding-left: 30px;
-    /* align-items: center; */
     width:95%;
-    /* height: 95%; */
   }
-  /* .logo{
-    width: 45%;
-    align-items: center;
-  } */
+
   .description{
-    /* width: 95%; */
     font-size: 35px;
-    /* text-align: center; */
   }
   #expert{
     font-size: 35px;
   }
   }
-
-
-/* @media only screen and (max-width: 1048px ){
-  .background-box{
-    width: 100%;
-
-  }
-} */ 
 
 @media only screen  and (max-width: 384px){
   .description{
@@ -478,6 +346,5 @@ html * {
   #new{
     width: 70%;
     text-align: center;
-    /* margin-left: 10px; */
   }
 }
